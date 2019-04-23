@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title> Pathologie </title>
+</head>
+<body>
+    <h1> Pathologie </h1>
+<!--TODO : Remplir les select avec des requêtes sql-->
+    <select tabindex="1" id="meridien-select" multiple="" size="3">
+        <optgroup label = "Meridien">
+        <option value="Poumon">Poumon</option>
+        <option value="Ren Mai">Ren Mai</option>
+        <option value="Rein">Rein</option>
+        <option value="Yanq Qiao Mai">Yanq Qiao Mai</option>
+        </optgroup>
+    </select>
+    <select tabindex="2" id="pathologie-select" multiple="" size="3">
+        <optgroup label = "Pathologie">
+        <option value="meridien">meridien</option>
+        <option value="organe">organe</option>
+        <option value="viscere">viscere</option>
+        <option value="luo">luo</option>
+        </optgroup>
+    </select>
+    <select tabindex="3" id="caracteristiques-select" multiple="" size="3">
+        <optgroup label = "Caractéristiques">
+        <option value="plein">plein</option>
+        <option value="chaud">chaud</option>
+        <option value="vide">vide</option>
+        <option value="froid">froid</option>
+        </optgroup>
+    </select>
+<!--TODO : Créer une fonction JS pour le bouton-->
+    <button tabindex="4" onclick=""> Recherche </button>
+<!--TODO : Afficher les tableaux correspondant-->
+    <table>
+        <thead>
+        <tr>
+            <th> Meridien </th>
+            <th> Pathologie </th>
+            <th> Caractéristiques </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td> XXXXX </td>
+            <td> XXXXX </td>
+            <td> XXXXX </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
